@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan pembuatan form</title>
+</head>
+<body>
+    <!--NIM,NAMA,JENIS KELAMIN,AGAMA,STATUS,JURUSAN,KOMENTAR,-->
+<form>
+    <H1>Form pendaftaran</H1><hr>
+    <PRE>
+NIM             :<input type="text" size="11" name="nim"> <br>
+NAMA            :<input type="text" size="25" name="nama"><br>
+JENIS KELAMIN   :<input type="radio" name="jkel" value="pria">pria<br>
+                 <input type="radio" name="jkel" value="Wanita">Wanita
+
+AGAMA           :<select name="agama"><br>
+            <option value="Islam">Islam</option>
+            <option value="Katholik">Katholik</option>
+            <option value="Kristen">Kristen</option>
+            <option value="Hindu">Hindu</option>
+            <option value="Budha">Budha</option>
+        </select>
+STATUS          :<input type="radio" name="status" value="kawin">kawin
+                 <input type="radio" name="status" value="belum kawin">belum kawin
+
+JURUSAN         :<select name="jurusan" size="1">
+                 <option value="Teknik Informatika">teknik informatika</option>
+                 <option value="Manejemen Informatika">manejemen informatika</option></select>
+
+HOBBY           :<input type="checkbox" name="hoby" value="futsal">futsal
+                 <input type="checkbox" name="hoby" value="renang">renang
+                 <input type="checkbox" name="hoby" value="traveling">traveling
+
+KETERANGAN      : 
+                    <textarea name="ket" rows="4"  cols="40"></textarea>
+
+</PRE>
+<BR>
+<input type="submit" value="kirim">
+<input type="reset" value="ulang">
+</form> 
+
+</body>
+</html>
