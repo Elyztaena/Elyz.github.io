@@ -1,0 +1,23 @@
+<html>
+<head>
+  <title>Javascript Dialog</title>
+</head>
+<body>
+  <script>
+    // Alert
+    alert("Ini bagian alert!");
+
+    // Prompt
+    var nama = prompt("nama kamu siapa?", "");
+    document.write("<p>Hello " + nama + "</p>");
+
+    // Confirm
+    var yakin = confirm("Apakah kamu yakin akan mengunjungi facebook?");
+    if (yakin) {
+      window.location = "https://www.facebook.com";
+    } else {
+      document.write("tetap di sini saja ya :)");
+    }
+  </script>
+</body>
+</html>
